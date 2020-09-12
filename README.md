@@ -6,4 +6,6 @@ This project can be used to setup chess netplay between two players over the int
 <br>
 It supports all major chess notation formats like fen , pgn ,and algebraic notations (as well as support for others in future)
 <br>
-<a href="https://wismuth.com/chess/statistics-games.html">Chess statistics a great site </a>
+<a href="https://wismuth.com/chess/statistics-games.html">Chess statistics a great site look at! </a>
+<br>
+<a href="https://www.imdb.com/video/vi1655243033?playlistId=tt0379296">Get inspired about chess watch the greatest chess player who ever lived</a>
