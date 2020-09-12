@@ -1,4 +1,4 @@
-# chess project
+# Chess Project
 <p>This project is meant to be used to analysis chess better from a scientific and logical point of few. 
 It can be used as a front end gui for machine learning /ai chess engines or just to play human vs human as well.
 It can be used to setup chess netplay between two players over the internet or one can just play locally on the same machine by taking turns.
