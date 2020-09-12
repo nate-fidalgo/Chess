@@ -29,4 +29,4 @@ Compile it with javac ReplayChess.java
 <br>
 Run it with java ReplayChess
 <br>
-Or after compiling it instantiate an ReplayChess object in your own java program 
+Or after compiling it instantiate a ReplayChess object in your own java program 
