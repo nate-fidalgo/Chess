@@ -4,7 +4,7 @@ It can be used as a front end gui for machine learning /ai chess engines or just
 It can be used to setup chess netplay between two players over the internet or one can just play locally on the same machine by taking turns.
 It supports all major chess notation formats like fen , pgn ,and algebraic notations (as well as support for others in future)
 </p>
-<a href="https://wismuth.com/chess/statistics-games.html">Chess statistics a great site look at it! </a>
+<a href="https://wismuth.com/chess/statistics-games.html">Chess statistics a great site to look at!</a>
 <br>
 <a href="https://www.imdb.com/video/vi1655243033?playlistId=tt0379296">Get inspired about chess watch the greatest chess player who ever lived</a>
 <br>
@@ -14,3 +14,4 @@ It supports all major chess notation formats like fen , pgn ,and algebraic notat
 <br>
 <B><a href="https://nate-fidalgo.github.io/chess/">For developers learn more on how to uses this project</a></B>
 <br>
+<B><a href="https://nate-fidalgo.github.io/chess/">For developers learn more on how to uses this project</a></B>
