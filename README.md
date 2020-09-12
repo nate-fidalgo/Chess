@@ -10,5 +10,5 @@ It supports all major chess notation formats like fen , pgn ,and algebraic notat
 <br>
 <a href="https://www.imdb.com/video/vi1655243033?playlistId=tt0379296">Get inspired about chess watch the greatest chess player who ever lived</a>
 <br>
-<a href="https://www.youtube.com/watch?v=SM2fcenx7KU">learn the rules of chess with this great youtube video</a>
+<a href="https://www.youtube.com/watch?v=SM2fcenx7KU">Learn the rules of chess with this great youtube video</a>
 <br>
