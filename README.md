@@ -12,5 +12,7 @@ It supports all major chess notation formats like fen , pgn ,and algebraic notat
 <br>
 <a href="https://www.youtube.com/watch?v=SM2fcenx7KU">Learn the rules of chess with this great youtube video</a>
 <br>
-<a href="https://nate-fidalgo.github.io/chess/">For developers learn more on how to uses this project</a>
+<a href="http://bernd.bplaced.net/fengenerator/fengenerator.html">Nice tool for generating random fen strings</a>
+<br>
+<B><a href="https://nate-fidalgo.github.io/chess/">For developers learn more on how to uses this project</a></B>
 <br>
