@@ -12,6 +12,6 @@ It supports all major chess notation formats like fen , pgn ,and algebraic notat
 <br>
 <a href="http://bernd.bplaced.net/fengenerator/fengenerator.html">Nice tool for generating random fen strings</a>
 <br>
-<B><a href="https://nate-fidalgo.github.io/chess/">For developers learn more on how to uses this project</a></B>
+<B><a href="https://nate-fidalgo.github.io/chess/">For developers a javadoc for chess project </a></B>
 <br>
-<B><a href="https://nate-fidalgo.github.io/chess/">For developers learn more on how to uses this project</a></B>
+<B><a href="https://nate-fidalgo.github.io/chess/">For developers examples on how to uses class and functions to do really cool stuff</a></B>
