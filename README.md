@@ -20,7 +20,8 @@ It supports all major chess notation formats like fen , pgn ,and algebraic notat
 <br>
 The possibilities are up to you
 <br>
-To install and uses the program project all you need is ReplayChess.java a single self contained java application that has all the functionality
+<br>
+To install and use this program project all you need is ReplayChess.java 
 <br>
 Download the ReplayChess.java file
 <br>
