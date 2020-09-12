@@ -19,3 +19,13 @@ It supports all major chess notation formats like fen , pgn ,and algebraic notat
 <B><a href="https://github.com/nate-fidalgo/chess/wiki">For developers examples on how to uses these java chess class/functions to do really cool stuff</a></B>
 <br>
 The possibilities are up to you
+<br>
+To install and uses the program project all you need is ReplayChess.java a single self contained java application that has all the functionality
+<br>
+Download the ReplayChess.java file
+<br>
+Compile it with javac ReplayChess.java
+<br>
+Run it with java ReplayChess
+<br>
+Or after compiling instantiate an object using it
