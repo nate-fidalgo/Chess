@@ -14,7 +14,7 @@ It supports all major chess notation formats like fen , pgn ,and algebraic notat
 <br>
 <a href="https://www.youtube.com/watch?v=wljgxS7tZVE">Watch the history of computer chess playing engines!</a>
 <br>
-<B><a href="https://nate-fidalgo.github.io/chess/">For developers a javadoc for this java chess project </a></B>
+<B><a href="https://nate-fidalgo.github.io/Chess/">For developers a javadoc for this java chess project </a></B>
 <br>
 <B><a href="https://github.com/nate-fidalgo/chess/wiki">For developers examples on how to uses these java chess class/functions to do really cool stuff</a></B>
 <br>
