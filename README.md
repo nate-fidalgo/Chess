@@ -32,3 +32,5 @@ Compile it with javac ReplayChess.java
 Run it with java ReplayChess
 <br>
 Or after compiling it instantiate a ReplayChess object in your own java program 
+<br>
+<A HREF="http://www.freechess.org"><IMG WIDTH="830" HEIGHT="130" BORDER="0" SRC="http://www.freechess.org/Images/Logo/FicsBanner.jpg" ALT="FICS: Free Internet Chess Server"></A>
