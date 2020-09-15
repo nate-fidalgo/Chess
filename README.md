@@ -18,6 +18,8 @@ It supports all major chess notation formats like fen , pgn ,and algebraic notat
 <br>
 <B><a href="https://github.com/nate-fidalgo/chess/wiki">For developers examples on how to uses these java chess class/functions to do really cool stuff</a></B>
 <br>
+<B><a href="https://www.youtube.com/watch?v=h_Q9JegGpwk">For developers setting up stockfish and how to send moves/commands to stockfish!</a></B>
+<br>
 The possibilities are up to you
 <br>
 <br>
