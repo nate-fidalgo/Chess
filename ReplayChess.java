@@ -1337,15 +1337,33 @@ String tmpboard[][] = new String[size][size] ;
 for( int i = 0 ; i < size ; i++ )
 for( int j = 0 ; j < size ; j++ )
 tmpboard[i][j] = cboard[i][j].getText() ;
+//System.out.println("$$$$$$$$$$$$$$$$ mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm " + m) ;
 
-movepiece( m , player ) ;
 
 boolean isnotkilled = true ;
 
 String king = getKing(player) ;
+//System.out.println("************************************************** " + king) ;
+if( king == null ) 
+{
+	return false ;
+	
+}
+if( king.equals( m.charAt(3) + m.charAt(4) ) == true ) // you cannt move your piece on where your king is on!
+{
+	//for( int i = 0 ; i < size ; i++ )
+	//	for( int j = 0 ; j < size ; j++ )
+	//	 cboard[i][j].setText( tmpboard[i][j] ) ;
+	
+	return false ;
+}
+
+movepiece( m , player ) ;
+
 int oplayer = getOpponentPlayer( player ) ;
 String opponentpieces[] = getPieces( oplayer ) ;
 
+//System.out.println( "$$$$$$$$$$$$$$$$$$" + king) ;
 for( int i = 0 ; i < opponentpieces.length ; i++ )
 {
 
@@ -1359,6 +1377,8 @@ break ;
 }
 
 }
+
+//String oking = getKing( oplayer ) ;  put in logic for a king to kill another king!!!
 
 for( int i = 0 ; i < size ; i++ )
 for( int j = 0 ; j < size ; j++ )
@@ -1712,7 +1732,7 @@ if( piece == 'B' )
 
        int temprow = prow - 1 ;
        for( int i =  pcol+1 ; i < col && temprow > row ; i++ )
-       { System.out.println("pcol = " + pcol + " prow = " + prow + " col = " + col + " row = " + row + " i = " + i + " irow = " + temprow ) ;
+       { //System.out.println("pcol = " + pcol + " prow = " + prow + " col = " + col + " row = " + row + " i = " + i + " irow = " + temprow ) ;
          if( cboard[size - (temprow--) - 1][i].getText().equals("") == false )
          return false ;
        }
@@ -1822,6 +1842,8 @@ public void allPossibleMoves(int player)
 	String ktmpmove = null ;
 	StringBuffer allmovesbuf = new StringBuffer(2000) ;
 	int totalmovecount = 0 ;
+	//System.out.println( getKing(1 ) ) ;
+	//System.out.println( getKing( 2 ) ) ;
 	for( int i = 0 ; i < ppiece.length ; i++ )
 	{
 		if( ppiece[i] == null )
@@ -1936,10 +1958,27 @@ System.out.println("Is in check " + r.isInCheck(1) + " Has no moves left " + r.h
 
 *********************************************************************************************************/
 //r.clearBoard();
-//r.setBoardByFEN( "8/8/k7/8/8/8/6K1/8" ) ; // "2R5/PK1Pkpp1/4p2N/4p1Rp/4B3/q7/3p1B2/8" ) ; // b KQkq - 1 2" ) ;
+//r.setBoardByFEN( "8/pp4k1/3b4/8/2p3n1/2P5/PP1P1q1N/RNBQ1K2" ) ; // "2R5/PK1Pkpp1/4p2N/4p1Rp/4B3/q7/3p1B2/8" ) ; // b KQkq - 1 2" ) ;
 //r.getBoardFEN();
 
 //r.allPossibleMoves(1) ;
+//https://www.youtube.com/watch?v=h_Q9JegGpwk  stockfish important
+
+//INTERNET CHESS SERVERS CONNECTING TO THEM AND LEARNING THERE COMMANDS/FEATURES 
+//telnet freechess.org 
+//telnet chessclub.com    //ICC Internet Chess Club
+//telnet freechess.org    // FICS Free Internet Chess Server
+//Those seem to be the main two still active telnet based chess servers in existence 
+//The others you have to uses either a webservice api like restful , soap ,...etc to access them Or if that is not available
+//then you wont beable to integrate into a front end like this and would need to go thru there site only
+
+//lichess site
+//https://lichess.org/api
+//r.clearBoard();
+//r.setBoardByFEN("KQqqQqQQ/QQ5q/q6Q/Q6q/q6Q/q6Q/q5qq/QqQQqQqk") ;
+//r.setBoardByFEN( "QqQQqQqk/q5qq/q6Q/q6Q/Q6q/q6Q/QQ5q/KQqqQqQQ" ) ;
+
+//r.allPossibleMoves(1);
 
 while( true )
 {
@@ -2033,6 +2072,7 @@ static class ChessMessage extends Thread {
 
    public void run() {
 	   printMoves(gamemoves) ;
+	   
    }
 }
 
@@ -2189,7 +2229,7 @@ public void getBoardFEN()
 			
 	}
 	
-	//System.out.println( tempfen ) ;
+	System.out.println( tempfen ) ;
 	
 	tempfen = tempfen.replaceAll("xxxxxxxx", "8") ;
 	tempfen = tempfen.replaceAll("xxxxxxx", "7") ;
@@ -2200,7 +2240,7 @@ public void getBoardFEN()
 	tempfen = tempfen.replaceAll("xx", "2") ;
 	tempfen = tempfen.replaceAll("x", "1") ;
 	
-	//System.out.println( tempfen ) ;
+	System.out.println( tempfen ) ;
 	
 }
 
